@@ -1,0 +1,33 @@
+// -----------------------------------------------------------------------------
+// This file contains all styles related to the header of the site/application.
+// -----------------------------------------------------------------------------
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  margin-right: -15px; /* Ajoute une marge négative pour compenser la marge négative des colonnes internes */
+  margin-left: -15px; /* Ajoute une marge négative pour compenser la marge négative des colonnes internes */
+}
+
+.col {
+  display: block;
+  margin: 0;
+  padding: 0;
+
+  &-sm {
+    max-width: 320px;
+  }
+
+  &-md {
+    max-width: 768px;
+  }
+
+  &-xl {
+    max-width: 1024px;
+  }
+  &-1 { width: 8.33%; }
+  &-2 { width: 16.67%; }
+  &-3 { width: 25%; }
+  &-4 { width: 33.33%; }
+  &-6 { width: 50%; }
+}

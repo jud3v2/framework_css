@@ -1,0 +1,34 @@
+// -----------------------------------------------------------------------------
+// This file contains all styles related to the image component.
+// -----------------------------------------------------------------------------
+
+.img {
+  &-image-responsive {
+    width: 100%;
+    height: auto;
+  }
+
+  &-rounded {
+    border-radius: .5rem;
+  }
+
+  &-circle {
+    border-radius: 50%;
+  }
+
+  &-thumbnail {
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 5px;
+    width: 150px;
+
+    &:hover {
+      box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
+    }
+  }
+
+  &-blur {
+    -webkit-filter: blur(5px); /* Safari 6.0 - 9.0 */
+    filter: blur(5px);
+  }
+}

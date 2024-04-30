@@ -1,0 +1,60 @@
+// -----------------------------------------------------------------------------
+// This file contains all styles related to the alert component.
+// -----------------------------------------------------------------------------
+
+.visible {
+  display: block;
+
+  &-sm {
+    @media screen and (max-width: 320px){
+      display: block;
+    }
+  }
+
+  &-md {
+    @media screen and (max-width: 768px){
+      display: block;
+    }
+  }
+
+  &-xl {
+    @media screen and (max-width: 1024px){
+      display: block;
+    }
+  }
+}
+
+
+.hidden {
+  display: none;
+
+  &-sm {
+    @media screen and (max-width: 320px){
+      display: none;
+    }
+  }
+
+  &-md {
+    @media screen and (max-width: 768px){
+      display: none;
+    }
+  }
+
+  &-xl {
+    @media screen and (max-width: 1024px){
+      display: none;
+    }
+  }
+}
+
+.visible-print {
+  @media print {
+    display: block;
+  }
+}
+
+.hidden-print {
+  @media print {
+    display: none;
+  }
+}

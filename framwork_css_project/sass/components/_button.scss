@@ -1,0 +1,66 @@
+// -----------------------------------------------------------------------------
+// This file contains all styles related to the button component.
+// -----------------------------------------------------------------------------
+@import "../abstracts/variables";
+
+.btn {
+  padding: .3em .7em;
+  margin: 1em;
+  border-radius: .5rem;
+  border: 0;
+  color: black;
+  cursor: pointer;
+
+  &:active {
+    background-color: black;
+    color: white;
+    animation: .5s ease;
+  }
+
+  &:disabled {
+    background-color: $buttonDisabled;
+    cursor: default;
+  }
+
+  &-sm {
+    padding: .10em .5em;
+  }
+
+  &-md {
+    padding: .20em .7em;
+  }
+
+  &-xl {
+    padding: .40em 1em;
+  }
+
+  &-blue {
+    background-color: $buttonBlue;
+    color: white;
+  }
+
+  &-red {
+    background-color: $buttonRed;
+    color: white;
+  }
+
+  &-yellow {
+    background-color: $buttonYellow;
+    color: black;
+  }
+
+  &-green {
+    background-color: $buttonGreen;
+    color: white;
+  }
+
+  &-purple {
+    background-color: $buttonPurple;
+    color: white;
+  }
+
+  &-orange {
+    background-color: $buttonOrange;
+    color: white;
+  }
+}

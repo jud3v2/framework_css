@@ -1,0 +1,75 @@
+// -----------------------------------------------------------------------------
+// This file contains all styles related to the navbar component.
+// -----------------------------------------------------------------------------
+
+@import '../abstracts/_variables.scss';
+
+nav.navbar {
+  width: 100%;
+}
+
+ul.navbar-nav {
+  display: flex;
+}
+
+li.nav-item {
+  display: block;
+  justify-self: center;
+  margin: .5em 1em
+}
+
+.nav-link {
+  text-decoration: none;
+  color: $buttonDisabled;
+
+  &:hover {
+    color: black;
+  }
+
+  &:disabled {
+    color: #4f5151;
+  }
+
+  &-dropdown {
+    color: $buttonDisabled;
+
+    &:hover {
+      color: black;
+    }
+
+    &:disabled {
+      color: #4f5151;
+    }
+
+    &-list {
+      color: $buttonDisabled;
+      text-underline: none;
+      font-size: 13px;
+
+      &:hover {
+        color: black;
+      }
+
+      &:disabled {
+        color: #4f5151;
+      }
+    }
+  }
+}
+
+.dropdown-menu {
+  display: none;
+}
+
+.dropdown-menu.active {
+  display: block;
+  z-index: 9999;
+}
+
+.hide {
+  display: none;
+}
+
+.show {
+  display: block;
+}

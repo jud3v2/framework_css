@@ -1,0 +1,27 @@
+// -----------------------------------------------------------------------------
+// This file contains all styles related to the alert component.
+// -----------------------------------------------------------------------------
+
+@import '../abstracts/variables';
+
+.alert {
+  padding: .5rem 3rem;
+  border: 1px solid black;
+  border-radius: 1rem;
+
+  &-success {
+    background-color: $buttonGreen;
+  }
+
+  &-danger {
+    background-color: $buttonRed;
+  }
+
+  &-info {
+    background-color: $buttonDisabled;
+  }
+
+  &-warning {
+    background-color: $buttonYellow;
+  }
+}

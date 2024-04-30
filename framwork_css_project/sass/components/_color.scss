@@ -1,0 +1,105 @@
+// -----------------------------------------------------------------------------
+// This file contains all styles related to the color component.
+// -----------------------------------------------------------------------------
+
+@import '../abstracts/variables';
+
+.text {
+  &-muted {
+    color: $buttonDisabled;
+  }
+
+  &-primary {
+    color: $buttonBlue;
+  }
+
+  &-success {
+    color: $buttonGreen;
+  }
+
+  &-info {
+    color: $buttonInfo;
+  }
+
+  &-warning {
+    color: $buttonYellow;
+  }
+
+  &-error {
+    color: $buttonRed;
+  }
+
+  &-white {
+    color: white;
+  }
+}
+
+.bg {
+  &-muted {
+    background-color: $buttonDisabled;
+  }
+
+  &-primary {
+    background-color: $buttonBlue;
+  }
+
+  &-success {
+    background-color: $buttonGreen;
+  }
+
+  &-info {
+    background-color: $buttonInfo;
+  }
+
+  &-warning {
+    background-color: $buttonYellow;
+  }
+
+  &-error {
+    background-color: $buttonRed;
+  }
+
+  &-white {
+    background-color: white;
+  }
+
+  &-muted {
+    background-color: $buttonDisabled;
+  }
+
+  &-primary {
+    background-color: $buttonBlue;
+  }
+
+  &-secondary {
+    background-color: $buttonGrey;
+  }
+
+  &-success {
+    background-color: $buttonGreen;
+  }
+
+  &-info {
+    background-color: $buttonInfo;
+  }
+
+  &-warning {
+    background-color: $buttonYellow;
+  }
+
+  &-danger {
+    background-color: $buttonRed;
+  }
+
+  &-white {
+    background-color: white;
+  }
+
+  &-dark {
+    background-color: $buttonDark;
+  }
+
+  &-light {
+    background-color: $buttonLight;
+  }
+}
